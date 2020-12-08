@@ -41,7 +41,7 @@ void guesNumber (){
             printf("\n");
             printf("This is a extra hint:\n"); 
             if (randomNumber %10 == 0 ){ 
-                printf("You van devide it by 10\n");
+                printf("You can devide it by 10\n");
                 printf("\n");
             }
             else {
@@ -83,6 +83,4 @@ int main(){
     printf("We've picked a numeber for you between 1 and 1000\n"); 
     printf("Goodluck in guessing the answer\n");
     guesNumber();
-    
-
 }
